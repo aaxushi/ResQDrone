@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResQDrone</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Merriweather:700|Merriweather:400');
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Merriweather';
+            font-weight: 700;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Merriweather';
+            font-weight: 400;
+            background-image: url('image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #fff;
+            margin-top: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header:hover {
+            background-color: #000000;
+        }
+
+        header:hover .nav-link,
+        header:hover #contact,
+        header:hover #support,
+        header:hover span,
+        header:hover #website-name {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        .logo {
+            margin-right: auto;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            margin-left: 32%;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #000000;
+            transition: color 0.3s;
+            margin-right: auto;
+        }
+
+        #contact,
+        #support {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            margin-left: 30px;
+            padding: 15px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        main {
+            margin-top: 100px;
+            padding-left: 200px;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 75px;
+            color: #dcdcdc;
+        }
+
+        h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: white;
+        }
+
+        /* Media Query for Responsive Layout */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .col.text-right {
+                margin-top: 10px;
+            }
+
+            #globe {
+                margin-top: 10px;
+            }
+
+            #contact, #support {
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                margin-left: 30px;
+                padding: 15px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+        }
+
+        #globe:hover span {
+            color: #fff;
+            /* Change color on hover */
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+
+        .blackbg {
+            background-color: black;
+        }
+        .content {
+            margin-top: 15%;
+        }
+
+        .AboutUs {
+            
+            border-radius: 25px;
+            text-align: left;
+            justify-content: left;
+            margin: 30%;
+            width: 50%;
+            
+        }
+
+        .about-box h1 {
+            text-align: center;
+        }
+        #features{
+            background-color: grey;
+            border-radius: 5px;
+            height: 10%;
+            width:5%;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #fff;
+            padding: 20px;
+            justify-content: space-around;
+            width: 100%;
+            
+        }
+
+        footer div {
+            width: 45%;
+        }
+
+        footer h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        #website-name {
+            font-size: 18px;
+            transition: color 0.3s;
+            color: #000000;
+        }
+        h5{
+            text-align: center;
+        }
+        .thermal{
+            margin-left: 25%;
+        }
+        .contactus{
+            text-align: center;
+            margin-left: 30%;
+        }
+        .followus{
+            text-align: center;
+            margin-left: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mx-4">
+
+        <div class="logo">
+            <p><img id="scrollpic" src="logo.png" alt="Logo" width="50"></p>
+          </div>
+        <div id="website-name">
+              ResQDrone 
+          </div>
+
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="responsive_booking.html" class="nav-link">Products</a>
+            <a href="#" class="nav-link">About Us</a>
+        </nav>
+
+        <div class="col text-right">
+          
+            <a href="contact"></a><button id="contact">Contact Us</button>
+            <a href="login.html">
+                <button id="support">Get Support</button>
+            </a>
+        </div>
+
+        <div id="globe">
+            <img src="globe.png" alt="Globe" width="20">
+            <span>India</span>
+        </div>
+
+    </header>
+
+    <main>
+        <div>
+
+            <h3><b>Public Safety: Search and Rescue Drones</b></h3>
+            <h1><b>Search Large Areas</b></h1>
+            <h1><b>& Save Lives</b></h1>
+            <h3><b>With an Airborne Perspective</b></h3>
+        </div>
+
+
+    </main>
+    <hr>
+    <section class="blackbg">
+    <section class="content">
+        <div class="AboutUs">
+            <h1><b>ABOUT US</b></h1>
+            <hr>
+            <p>
+                Welcome to the website of SARD,
+                a non-profit organization dedicated to utilizing drone technology for search and rescue operations in
+                the wake of disasters.<br>
+                We believe that every second counts when lives are on the line, and our mission is to leverage the power
+                of drones to expedite rescue efforts and save precious lives.<br>
+                Disasters often strike across vast and challenging terrains, making traditional search and rescue
+                efforts arduous and time-consuming. <br>
+                Our drones provide an aerial perspective, allowing us to cover large areas quickly and efficiently,
+                significantly increasing the chances of locating survivors in critical timeframes.<br>
+                Our drones are equipped with advanced automation features, including thermal imaging and object
+                recognition capabilities.<br>
+                These features allow them to autonomously search for survivors, reducing human error and fatigue while
+                maximizing search efficiency, especially in hazardous environments.<br>
+                Our drones are equipped with real-time tracking systems, enabling us to monitor their location and
+                progress remotely.<br>
+                This allows for coordinated search efforts and ensures that rescue teams can be efficiently directed
+                towards identified survivors.<br>
+                Explore our website to learn more about our work, our impact, and how you can get involved.
+
+                <br>
+            </p>
+        </div>
+
+        <!-- <p id="features">CUT RESPONSE
+            TIME BY
+            50%</p>
+        <p id="features">INCREASE AREA
+            COVERAGE BY
+            2X</p>
+        <p id="features">NCREASE RESCUE
+                SUCCESS RATE BY
+                75%</p>
+        <p>Thermal Image Person Detection</p>
+        <img src="thermalsample.png" height="30%">
+        </section> -->
+        <h5 style="color: wheat;">Thermal Image Person Detection</h5>
+        <img class="thermal" src="thermalsample.png" height="30%">
+        </section>
+
+    <footer>
+        <div class="contactus">
+            <h3 style="color: #dcdcdc;">Contact Us</h3>
+            <hr>
+            <p>123 Drone Street, Search and Rescue City</p>
+            <p>Bangalore,India</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <p>Email: <a href="mailto:info@searchrescuedrones.com">info@searchrescuedrones.com</a></p>
+        </div>
+        <div>
+
+        <div>
+            <h3 style="color: #dadada;">Follow Us & stay updated with our latest missions and operations</h3>
+            <hr>
+            <div>
+              <a href="https://www.instagram.com/searchrescuedrones" target="_blank">
+                  <img src="ig.png" alt="Instagram" width="10%">
+              </a>
+              <a href="https://www.facebook.com/searchrescuedrones" target="_blank">
+                  <img src="facebook.png" alt="Facebook" width="10%">
+              </a>
+              <a href="https://www.linkedin.com/searchrescuedrones" target="_blank">
+                  <img src="linkedin.png" alt="LinkedIn" width="10%">
+              </a>
+          </div>
+          
+        </div>
+    </footer>
+
+</section>
+</body>
+<script type="text/javascript">
+
+    const bg = document.getElementById('scrollpic');
+    window.addEventListener('scroll', function () {
+        <!--bg.style.backgroundSize = 160 - +window.pageYOffset/12 + '%';-->
+        const scrollAmount = window.pageYOffset;
+        const scaleFactor = 1 + scrollAmount / 15000; // Adjust the divisor for the desired zoom intensity
+        bg.style.backgroundSize = `${scaleFactor * 100}%`;
+
+    });
+</script>
+
+</html>
